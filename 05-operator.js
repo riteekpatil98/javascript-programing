@@ -1,0 +1,46 @@
+
+console.log("--------------------Arithmetic-Operator---------------------- ");
+
+
+var a = 10;
+var b = 5;
+var result = a + b;
+console.log(`Addition ${result}`);
+
+var result = a - b;
+console.log(`Subtraction:  ${result}`);
+
+var result = a * b;
+console.log(`Multiplication:  ${result}`);
+
+var result = a / b;
+console.log(`Division:  ${result}`);
+
+var result = a % b;
+
+
+console.log("========== Comparison Operators ================");
+var a = 10;
+var b = 11;
+var c = "10";
+var d = 10;
+console.log(`== Operator: ${a==b}`);
+console.log(`== Operator : ${a==d}`);
+console.log(`== Operator: ${a==c}`);
+
+console.log(`=== Operator: ${a===b}`);
+console.log(`== Operator : ${a===d}`);
+console.log(`== Operator: ${a===c}`);
+
+
+console.log(`< less than Operator: ${a < b }`); // true
+console.log(`< less than Operator : ${a < d }`); // false
+
+console.log(`<= less than equal Operator: ${a <= b }`); // true
+console.log(`<= less than  equal Operator : ${a <= d }`); // true
+
+console.log(`> greater than Operator: ${a > b }`); // false
+console.log(`> greater than Operator : ${a > d }`); // false
+
+console.log(`>= greater than equal Operator: ${a >= b }`); // false
+console.log(`>= greater than  equal Operator : ${a >= d }`); // true
