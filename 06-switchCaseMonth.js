@@ -62,3 +62,5 @@ monthOfYear(5);
 monthOfYear(12);
 monthOfYear(15);
 monthOfYear(100);
+
+console.log("2" + undefined);
