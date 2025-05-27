@@ -70,7 +70,7 @@ class College {
   //constructor
   constructor(collName, location, establishedYears, numberOfStud) {
     this.collName = collName;
-    this.location = collName;
+    this.location = location;
     this.establishedYears = establishedYears;
     this.numberOfStud = numberOfStud;
   }
